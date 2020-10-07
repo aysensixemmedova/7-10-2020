@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.find{
+    background:url(photo/bg-masthead.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding-top:300px;
+}
+.find h1{
+    font-size: 4em;
+}
+.find p{
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+ .mybtn1{
+    padding: 20px 40px;
+    background: #1d809f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 200px;
+    margin:20px auto;
+
+}
+ .mybtn1:hover{
+    background-color:#135D74;
+}
+.offer{
+    margin-top: 5em;
+    height: 40vh;
+    text-align: center;
+}
+.offer h2{
+    font-size: 2em;
+}
+.offer p{
+    margin-top: 20px;
+}
+
+.offer .mybtn2{
+
+    background-color: rgb(41, 39, 39);
+  
+}
+.offer .mybtn2:hover{
+    background:black ;
+}
+/* offer end */
+.service{
+    background: #1E809F;
+    text-align: center;
+    color: white;
+    height: 40vh;
+}
+.service h2{
+    font-size: 3em;
+}
+.service h3{
+    color: #EBB807;
+}
+.servic-icon{
+    float: left;
+    width: 25%;
+}
+.servic-icon i{
+    background-color: white;
+    color: #1E809F; 
+    border-radius: 40px;
+   
+}
+/* servic end  */
+.recent-project{
+    padding: 4em 0;
+}
+.recent-project .recent-item{
+    width: 50%;
+    float: left;
+    position: relative;
+    transition: .3s cubic-bezier(0.61, 0.29, 0.61, 0.33);
+}
+.recent-project .recent-item img{
+    width: 100%;
+    vertical-align: middle;
+    clip-path: inset(-1px);
+    transition: clip-path .5s ease-in-out;
+}
+.recent-project .recent-item .recent-text{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    padding: 30px;
+    color: #fff;
+
+}
+.recent-project .recent-item:hover img{
+   clip-path: inset(25px);
+    
+}
+.footer{
+    padding: 20px 0;
+    text-align: center;
+}
+.footer i{
+    padding: 20px;
+    background: #1d809f;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+.footer i:first-child{
+    padding: 20px 25px;
+}
